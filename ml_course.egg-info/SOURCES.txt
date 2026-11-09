@@ -1,3 +1,4 @@
+README.md
 setup.py
 ml_course.egg-info/PKG-INFO
 ml_course.egg-info/SOURCES.txt
@@ -5,3 +6,13 @@ ml_course.egg-info/dependency_links.txt
 ml_course.egg-info/requires.txt
 ml_course.egg-info/top_level.txt
 src/__init__.py
+src/exeption.py
+src/logs.py
+src/utils.py
+src/components/__init__.py
+src/components/data_ingestion.py
+src/components/data_transformation.py
+src/components/train_model.py
+src/pipeline/__init__.py
+src/pipeline/predect_pipeline.py
+src/pipeline/training_pipeline.py

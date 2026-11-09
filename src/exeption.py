@@ -1,5 +1,6 @@
 import logging
 import sys
+from src.logs import logging
 
 def handle_exception(error,detail_error:sys):
 
@@ -38,10 +39,3 @@ class CustomException(Exception):
         """
         return self.error_message    
 
-if __name__ == "__main__":
-    try:
-        # Example code that raises an exception
-        x = 1 / 0
-    except Exception as e:
-        logging.error("division by zero error occurred")
-        raise CustomException(e, sys)
